@@ -1,0 +1,56 @@
+{
+  "name": "react-application-boilerplate",
+  "version": "1.0.0",
+  "main": "public/bundle/main.js",
+  "module": "public/bundle/es/main.js",
+  "license": "MIT",
+  "engines": {
+    "node": ">=8",
+    "npm": ">=5"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "start": "rollup -c"
+  },
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-router": "^5.0.1",
+    "react-router-dom": "^5.0.1",
+    "rollup-plugin-bundle-html": "^0.2.1",
+    "rollup-plugin-typescript2": "^0.24.2"
+  },
+  "devDependencies": {
+    "@babel/polyfill": "^7.6.0",
+    "@testing-library/jest-dom": "^4.1.0",
+    "@testing-library/react": "^9.1.4",
+    "@types/react": "^16.9.2",
+    "@types/react-dom": "^16.9.0",
+    "@types/react-router-dom": "^4.3.5",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "chance": "^1.1.0",
+    "husky": "^3.0.5",
+    "rollup": "^1.21.4",
+    "rollup-plugin-analyzer": "^3.2.1",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-babel-minify": "^9.0.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-peer-deps-external": "^2.2.0",
+    "rollup-plugin-postcss": "^2.0.3",
+    "rollup-plugin-serve": "^1.0.1",
+    "rollup-plugin-url": "^2.2.2",
+    "sass-loader": "^8.0.0",
+    "tslint": "^5.20.0",
+    "tslint-config-airbnb": "^5.11.1",
+    "tslint-loader": "^3.5.4",
+    "tslint-react": "^4.1.0",
+    "typescript": "^3.6.3"
+  },
+  "files": [
+    "dist/",
+    "dist/es"
+  ]
+}
